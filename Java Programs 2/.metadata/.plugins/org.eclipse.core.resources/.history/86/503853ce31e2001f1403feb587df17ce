@@ -1,0 +1,11 @@
+
+public class exp2 extends exp1 {
+	
+	void m1()throws {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

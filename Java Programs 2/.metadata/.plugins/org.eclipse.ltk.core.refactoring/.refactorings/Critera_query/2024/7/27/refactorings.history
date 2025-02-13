@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Criteriaa.java&apos; to &apos;Task.Criteriaa.java&apos;&#x0D;&#x0A;- Original project: &apos;Critera_query&apos;&#x0D;&#x0A;- Destination element: &apos;Task.Criteriaa.java&apos;&#x0D;&#x0A;- Original element: &apos;Task.Criteriaa.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Task{Criteriaa.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Task{Criteriaa.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1719824577180" units="1" version="1.0"/>
+</session>

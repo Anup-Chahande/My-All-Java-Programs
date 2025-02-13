@@ -1,0 +1,29 @@
+package Java.SpringSecurity;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.User.UserBuilder;
+import org.springframework.security.core.userdetails.UserDetails;
+
+@Configuration
+public class SpringConfig {
+	
+	@Bean
+	 public void createuser() {
+      UserBuilder admin =  User.builder();
+		admin.username("sagar");
+		admin.password("1235");
+		admin.roles("ADMIN");
+		admin.build();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

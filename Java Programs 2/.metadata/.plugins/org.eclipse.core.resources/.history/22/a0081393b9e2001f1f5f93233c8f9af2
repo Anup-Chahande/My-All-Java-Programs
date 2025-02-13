@@ -1,0 +1,19 @@
+package com.jpacrud;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.jpacrud.User;
+
+@org.springframework.stereotype.Service
+public class Service {
+
+	@Autowired
+	CustomRepository cs;
+
+	public List<User> getalluser() {
+		return cs.findAll();
+	}
+
+}

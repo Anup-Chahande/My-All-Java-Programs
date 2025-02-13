@@ -1,0 +1,7 @@
+
+public class exp2 extends exp1{
+public static void main(String[] args) {
+	exp2 es= new  exp2();
+	es.m1();
+}
+}

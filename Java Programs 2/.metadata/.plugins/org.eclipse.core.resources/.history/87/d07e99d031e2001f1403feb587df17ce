@@ -1,0 +1,18 @@
+
+public class exp1 {
+
+	void m1() {
+		
+		int a=1;
+		int b=0;
+		int c=a/b;
+		
+		
+	}
+	public static void main(String[] args) {
+		exp1 es = new exp1();
+		es.m1();
+	}
+	
+	
+}

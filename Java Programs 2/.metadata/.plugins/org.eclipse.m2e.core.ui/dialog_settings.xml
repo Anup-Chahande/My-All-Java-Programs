@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Advance Java\Autotable_Mapping\src\main\java\Autotable\Control.java"/>
+			<item value="C:\Users\Anup Chahande\Downloads\WCCUPT20\firstsbproject177"/>
+			<item value="D:\Advance Java\Hibernate_day1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="213121"/>
+			<item value="123123"/>
+			<item value="13123"/>
+			<item value="Super_20_Hibernate_Tasks"/>
+			<item value="Super20"/>
+			<item value="super20practice"/>
+			<item value="1213"/>
+			<item value="1312"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="AgainfinelMapping"/>
+			<item value="NewServerlet"/>
+			<item value="NewHibernatepractice"/>
+			<item value="Super_20_Hibernate_Tasks"/>
+			<item value="Super20Test"/>
+			<item value="Super20Practice"/>
+			<item value="Hibdeletecheck"/>
+			<item value="Hibernate_Mapping"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Advance Java Projects\SpringSecurity"/>
+			<item value="C:\Users\Anup Chahande\Downloads\jpaproject"/>
+			<item value="C:\Users\Anup Chahande\Downloads\jpacrud\jpacrud"/>
+			<item value="C:\Users\Anup Chahande\Downloads\jpacrud"/>
+			<item value="C:\Users\Anup Chahande\Downloads\Logintryusingmcv\Logintryusingmcv"/>
+			<item value="D:\Nimap Project\ProductManagementServer"/>
+			<item value="D:\NImapProject\ProductManagementClient"/>
+			<item value="D:\Advance Java\NewSpringMvc\NewSpringMvc"/>
+			<item value="C:\Users\Anup Chahande\Downloads\com.aop\com.aop"/>
+			<item value="C:\Users\Anup Chahande\Downloads\NewAop"/>
+			<item value="C:\Users\Anup Chahande\Downloads\com.aop"/>
+			<item value="C:\Users\Anup Chahande\Downloads\NewSpringbootpractice\NewSpringbootpractice"/>
+			<item value="C:\Users\Anup Chahande\Downloads\com.LoginPage\com.LoginPage"/>
+			<item value="D:\Event Management Project\event_management_server"/>
+			<item value="D:\FullStackProject\CourceManagementSystem\SpringBootProj"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="Newaoppractice"/>
+			<item value="NewAop"/>
+			<item value="MyCourceSpringBootProj"/>
+			<item value="CourseSpringBootProj"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

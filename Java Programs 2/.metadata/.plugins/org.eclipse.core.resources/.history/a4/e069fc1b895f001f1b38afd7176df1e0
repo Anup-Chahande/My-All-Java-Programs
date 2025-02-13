@@ -1,0 +1,29 @@
+package tka.readexel.Que1;
+
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Read_Exel {
+
+    public static void main(String[] args) {
+        try (FileInputStream fis = new FileInputStream("path_to_your_file.xlsx");
+             Workbook workbook = new XSSFWorkbook(fis)) {
+
+            Sheet sheet = workbook.getSheetAt(0); // Read the first sheet
+
+            for (Row row : sheet) {
+                for (Cell cell : row) {
+                    System.out.print(cell.toString() + "\t"); // Print cell value
+                }
+                System.out.println();
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+

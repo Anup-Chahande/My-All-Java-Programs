@@ -1,0 +1,9 @@
+package _1.jpaproject;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.jpacrud.User;
+
+public interface CustomRepository extends JpaRepository<User, Integer>{
+
+}
