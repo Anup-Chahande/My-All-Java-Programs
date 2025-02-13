@@ -1,0 +1,40 @@
+package _2.spring1st;
+
+public class Employee {
+ int empid;
+ String empname;
+ String empprofile;
+public Employee(int empid, String empname, String empprofile) {
+	super();
+	this.empid = empid;
+	this.empname = empname;
+	this.empprofile = empprofile;
+}
+public Employee() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public int getEmpid() {
+	return empid;
+}
+public void setEmpid(int empid) {
+	this.empid = empid;
+}
+public String getEmpname() {
+	return empname;
+}
+public void setEmpname(String empname) {
+	this.empname = empname;
+}
+public String getEmpprofile() {
+	return empprofile;
+}
+public void setEmpprofile(String empprofile) {
+	this.empprofile = empprofile;
+}
+@Override
+public String toString() {
+	return "Employee [empid=" + empid + ", empname=" + empname + ", empprofile=" + empprofile + "]";
+}
+ 
+}

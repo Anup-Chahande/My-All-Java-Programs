@@ -1,0 +1,21 @@
+package HOMEWORK;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class QUE2 {
+	public static void main(String[] args) throws Exception {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/capegemini","root","HareKrishna@!");
+	String query = "Select SUM(salary) FROM employee AS Total_Salary";
+	Statement st = con.createStatement();
+	             ResultSet rs = st.executeQuery(query);
+	             while(rs.next()) {
+	            		System.out.println(rs.getInt(1));
+	            		
+	            		}
+	}
+}

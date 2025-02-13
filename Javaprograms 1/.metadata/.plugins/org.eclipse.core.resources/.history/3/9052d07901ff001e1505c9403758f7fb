@@ -1,0 +1,15 @@
+import java.io.FileOutputStream;
+public class Madhav {
+public static void main(String[] args) {
+	
+	try {
+	FileOutputStream sf = new FileOutputStream("D:\\Krishna.txt");
+	sf.write(67);
+	}
+	catch(Exception e){
+		System.out.println("File not found");
+	}
+}
+	
+	
+}

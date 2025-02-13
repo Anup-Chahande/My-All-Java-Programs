@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Anup Chahande\eclipse-workspace\Hibernate\src\main\java\com\java\ClientSelect.java"/>
+			<item value="C:\Users\Anup Chahande\eclipse-workspace\Hibernate\pom.xml"/>
+			<item value="C:\Users\Anup Chahande\eclipse-workspace\Hibernate\src\main\java\com\java\Accident.java"/>
+			<item value="C:\Users\Anup Chahande\eclipse-workspace\Loops"/>
+			<item value="D:\"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="1231"/>
+			<item value="12151"/>
+			<item value="1232"/>
+			<item value="12312"/>
+			<item value="mav"/>
+			<item value="21312"/>
+			<item value="123123"/>
+			<item value="got"/>
+			<item value="Trys"/>
+			<item value="Mav12"/>
+			<item value="com"/>
+			<item value="com.tka"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Mappinghb"/>
+			<item value="Criteria_Query"/>
+			<item value="Orignal_hibernate"/>
+			<item value="Accidentproj"/>
+			<item value="Accidentpr"/>
+			<item value="Accident"/>
+			<item value="Jnuitmaven"/>
+			<item value="It"/>
+			<item value="Check"/>
+			<item value="Myworkhib"/>
+			<item value="Hibernate"/>
+			<item value="caraccidentdboperations"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="po"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="659"/>
+		<item key="y" value="253"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Anup Chahande\Downloads\spring1st"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

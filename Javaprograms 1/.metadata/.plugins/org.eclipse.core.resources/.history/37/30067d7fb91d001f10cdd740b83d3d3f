@@ -1,0 +1,19 @@
+package _2.spring1st;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Student {
+@GetMapping("firstapi")
+
+public String m1() {
+	return "Anup";
+}
+@GetMapping("Secondapi")
+public String m2() {
+	return "Chahande";
+}
+
+
+}

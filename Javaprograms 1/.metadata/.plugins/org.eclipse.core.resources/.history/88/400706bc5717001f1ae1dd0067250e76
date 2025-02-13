@@ -1,0 +1,11 @@
+
+public class arreyrevere {
+public static void main(String[] args) {
+	int b;
+	int a[] = {123,456,789};
+	for(int i =0;i<2;i++) {
+            b =a[i]%2;
+            System.out.print(b);
+	}
+}
+}

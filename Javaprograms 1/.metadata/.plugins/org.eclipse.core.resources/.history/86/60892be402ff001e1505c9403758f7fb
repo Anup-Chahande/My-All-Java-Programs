@@ -1,0 +1,22 @@
+import java.io.FileOutputStream;
+public class Madhav {
+public static void main(String[] args) {
+	String s= "I Love Krishna";
+	char b [] = s.toCharArray();
+
+	try {
+	FileOutputStream sf = new FileOutputStream("D:\\Krishna.txt");
+for(int i = 0;i<b.length;i++) {
+           sf.write(b[i]);
+	
+	
+}
+	
+	}
+	catch(Exception e){
+		System.out.println("File not found");
+	}
+}
+	
+	
+}

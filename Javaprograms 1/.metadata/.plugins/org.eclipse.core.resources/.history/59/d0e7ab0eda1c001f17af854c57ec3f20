@@ -1,0 +1,18 @@
+package Accident;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
+public class Clint_critera {
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		cfg.addAnnotatedClass(accident.class);
+		SessionFactory s = cfg.buildSessionFactory();
+		Session session = s.openSession();
+		accident ses = session.load(accident.class,2);
+		System.out.println(ses);
+	}
+}

@@ -1,0 +1,27 @@
+package _2.spring1st;
+
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Student {
+@GetMapping("firstapi")
+
+public String m1() {
+	return "Anup";
+}
+
+
+@GetMapping("secondapi")
+ public ArrayList<String> employee () {
+	 
+	 ArrayList<String> al = new ArrayList<>();
+	 al.add("Anup");
+	 al.add("Dhiraj");
+	 al.add("kiran");
+	 
+	 return al;
+ }
+}
