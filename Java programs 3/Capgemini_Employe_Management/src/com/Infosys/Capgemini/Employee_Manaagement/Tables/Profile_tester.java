@@ -1,0 +1,37 @@
+package com.Infosys.Capgemini.Employee_Manaagement.Tables;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.SQLSyntaxErrorException;
+
+import com.Infosys.Capgemini.Employee_Manaagement.Constants.Constants;
+
+public class Profile_tester {
+void createtablestructre() {
+		
+		
+		try { Class.forName(Constants.DRIVER);}
+		catch(ClassNotFoundException s) {
+			System.out.println(Constants.CLASSNOTFOUND);
+		}
+		
+		try {
+	    Connection con =  DriverManager.getConnection(Constants.URL,Constants.ID,Constants.PASSWORD);
+	   
+	    PreparedStatement st = con.prepareStatement("Create TABLE Profile_Tester (ID INT PRIMARY KEY,employee_id INT UNIQUE KEY,Name varchar(20),Profile varchar(20),Salary INT)");                	 
+	           int insrecord =st.executeUpdate();
+		}
+		catch(SQLSyntaxErrorException exp) {
+			System.out.println(Constants.DBNOTFOUND);}
+		catch(SQLException ex) {
+			System.out.println(Constants.UNAMEPWDEXP);
+		}
+	 }             
+		public static void main(String[] args) throws Exception {
+			Profile_tester ss = new Profile_tester();
+			ss.createtablestructre();
+	}}
+
+
